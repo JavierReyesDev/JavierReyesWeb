@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Mono');
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_div {
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(255, 255, 255);
+}
+
+
+#logo {
+    margin: 0px;
+    font-family: IBM Plex Mono;
+    color: #ffffff;
+    background-color: #171515;
+    font-weight: normal;
+    margin-bottom: 0px;
+
+}
+
+#div2 {
+    display: flex;
+    word-wrap: break-word;
+}
+
+
+#div3 {
+    align-self: center;
+    background-color: rgba(255, 255, 255);
+    text-decoration: none;
+    color: #171515;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+}
+
+#div2a,
+#div2b {
+    margin: 30px;
+    margin-bottom: 0px;
+    padding: 30px;
+    display: inline-block;
+    text-align: justify;
+}
+
+#div2a {
+    align-items: center;
+}
+
+.nav_menu,
+#logo_menu {
+    display: inline-flexbox;
+    /* flex-direction: row; */
+    text-align: center;
+    line-height: 50px;
+    background-color: #171515;
+}
+
+.header_menu {
+    color: rgba(255, 255, 255);
+    font-family: Quicksand;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 20px;
+    background-color: #171515;
+    text-align: center;
+}
+
+.header_menu:hover {
+    color: rgba(0, 255, 242);
+    transform: scale(1.5);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.anchor_footer {
+    font-family: IBM Plex Mono;
+    text-decoration: none;
+    color: #171515;
+}
+
+.p_base {
+    font-family: Quicksand;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.h1_base {
+    font-family: IBM Plex Mono;
+    margin-top: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.h2_base {
+    font-family: IBM Plex Mono;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.h3_base {
+    font-family: IBM Plex Mono;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.technologies {
+    background-color: rgba(255, 255, 255);
+    font-family: IBM Plex Mono;
+    display: block;
+    color: #171515;
+    margin-top: 0px;
+    height: auto;
+}
+
+.icons_footer {
+    width: 60px;
+    height: auto;
+}
+
+.hr_footer {
+    margin-left: 3%;
+    margin-right: 3%;
+}
