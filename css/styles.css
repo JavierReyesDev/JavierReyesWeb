@@ -13,31 +13,39 @@ body {
 
 /*  .class  */
 
-.main_div {
+
+.timeline_div {
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.timeline_div {
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
-
-h1#logo {
+#main_logo {
     font-family: IBM Plex Mono;
     color: white;
     font-weight: normal;
     margin: 0;
 }
 
-#div2 {
-    display: flex;
-    word-wrap: break-word;
+#h1_footer {
+    font-family: IBM Plex Mono;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    margin: 1;
+    text-align: center;
 }
 
+#h1_timeline {
+    font-family: IBM Plex Mono;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 1;
+    text-align: center;
+}
 
-#div3 {
+footer {
     align-self: center;
     text-decoration: none;
     color: black;
@@ -46,30 +54,15 @@ h1#logo {
     justify-content: center;
     gap: 3%;
     align-items: center;
+    margin: 0;
 }
 
-#div2a,
-#div2b {
-    margin: 30px;
-    margin-bottom: 0px;
-    padding: 30px;
-    display: inline-block;
-    text-align: justify;
+.icons_footer {
+    width: 60px;
+    height: auto;
 }
 
-#div2a {
-    align-items: center;
-}
 
-.nav_menu {
-    text-align: center;
-    line-height: 50px;
-    background-color: #171515;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
 
 .logo_menu {
     text-align: center;
@@ -91,6 +84,16 @@ h1#logo {
     text-align: center;
 }
 
+.nav_menu {
+    text-align: center;
+    line-height: 50px;
+    background-color: #171515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .header_menu:hover {
     color: aqua;
 }
@@ -100,6 +103,16 @@ h1#logo {
     text-decoration: none;
     color: #171515;
 }
+
+.basic_text {
+    color: white;
+    font-family: Quicksand;
+    font-size: medium;
+    font-weight: no;
+    text-decoration: none;
+    margin: 0px;
+}
+
 
 .p_base {
     font-family: Quicksand;
@@ -143,10 +156,7 @@ h1#logo {
     height: auto;
 }
 
-.icons_footer {
-    width: 60px;
-    height: auto;
-}
+
 
 .hr_footer {
     margin-left: 3%;
@@ -159,11 +169,23 @@ h1#logo {
 
 
 
+
+
 /*Timeline*/
 * {
     box-sizing: border-box;
 }
 
+.div_tools {
+    background-color: #0072bc;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -200,11 +222,13 @@ h1#logo {
     height: 25px;
     right: -17px;
     background-color: ghostwhite;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid aqua;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+    white-space: nowrap;
 }
+
 
 /* Place the container to the left */
 .left {
@@ -252,9 +276,20 @@ h1#logo {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #6485c1;
     position: relative;
     border-radius: 6px;
+}
+
+#content_nttdata {
+    padding: 20px 30px;
+    background-color: #0072bc;
+    /*background-color: ##6485c1;*/
+    /*background-color: ##0072bc;*/
+    /*background-color: ##0072bc;*/
+    position: relative;
+    border-radius: 6px;
+    color: white;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
